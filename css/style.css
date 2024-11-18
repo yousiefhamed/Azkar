@@ -231,6 +231,12 @@ main #content {
   cursor: pointer;
   font-weight: 700;
   display: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
 }
 
 .zekr .fadl .dots.show {

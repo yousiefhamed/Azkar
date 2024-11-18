@@ -268,8 +268,8 @@ let azkar = () => {
               x.fadl.length > 50
                 ? `
                   <span class="substring-fadl">${x.fadl.substring(0, 50)}</span>
-                  <span class="dots show" data-more="${index}">...المزيد</span>
-                  <span class="dots" data-less="${index}">...أقل</span>
+                  <span role="button" class="dots show" data-more="${index}">...المزيد</span>
+                  <span role="button" class="dots" data-less="${index}">...أقل</span>
                 `
                 : x.fadl
             }</p>
