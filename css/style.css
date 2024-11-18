@@ -9,6 +9,10 @@ body {
   font-family: "Aref Ruqaa", serif;
   width: 100%;
   position: relative;
+}
+
+body main {
+  width: 100%;
   max-width: 500px;
   margin: auto;
 }
@@ -25,8 +29,15 @@ img {
 }
 
 .header {
-  width: 50%;
-  margin: 10px 0;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.header-wrapper {
+  width: calc(50% - 10px);
+  margin: 10px 0 10px 50%;
+  padding-right: 10px;
 }
 
 .header h1 {
@@ -264,6 +275,7 @@ main #content {
 }
 
 footer {
+  width: 100%;
   background-color: #000;
   color: lightgoldenrodyellow;
   text-align: center;
